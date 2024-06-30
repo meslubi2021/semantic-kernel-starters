@@ -10,10 +10,10 @@ packages = [{include = "sk_python_flask_chatgpt_plugin"}]
 python = "^3.8"
 semantic-kernel = "^0.3.4.dev0"
 flask = "^2.3.2"
-flask-cors = "^4.0.0"
+flask-cors = "^4.0.1"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
+black = "^24.3.0"
 ruff = "0.0.275"
 
 [build-system]
